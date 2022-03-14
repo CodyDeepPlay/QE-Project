@@ -1,0 +1,13 @@
+model: linear
+
+# test-source: data/word-level/en_de.nmt/dev.src
+# test-target: data/word-level/en_de.nmt/dev.mt
+# test-target-tags: data/word-level/en_de.nmt/dev.tags
+# test-alignments: data/word-level/en_de.nmt/dev.src-mt.alignments
+
+# test-source-pos: en_de.nmt_models/linear/dev.src.pos
+# test-target-pos: en_de.nmt_models/linear/dev.mt.pos
+# test-target-ngram: en_de.nmt_models/linear/dev.mt.ngrams
+# test-target-parse: en_de.nmt_models/linear/dev.mt.parses
+
+# load-model: nuqe/linear/model.torch
