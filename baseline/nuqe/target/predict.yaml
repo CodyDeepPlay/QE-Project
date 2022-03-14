@@ -1,0 +1,11 @@
+seed: 42
+
+model: nuqe
+
+wmt18-format: true
+
+predict-target: true
+
+load-model: nuqe/target/model.torch
+ 
+test-alignments: ../data/word-level/en_de.nmt/dev.src-mt.alignments

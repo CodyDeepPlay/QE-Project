@@ -1,0 +1,12 @@
+seed: 42
+
+model: nuqe
+
+wmt18-format: true
+
+predict-gaps: true
+predict-target: false
+
+load-model: nuqe/gaps/model.torch
+
+test-alignments: ../data/word-level/en_de.nmt/dev.src-mt.alignments
